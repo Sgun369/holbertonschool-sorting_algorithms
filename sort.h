@@ -45,7 +45,8 @@ void print_list(const listint_t *list);
 void bubble_sort(int *array, size_t size);
 
 /*swap function*/
- void swap(int *xp, int *yp);
-
+ 
+  void swap(int *x, int *y);
+  
 
 #endif
