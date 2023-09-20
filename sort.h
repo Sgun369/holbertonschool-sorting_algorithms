@@ -44,9 +44,34 @@ void print_list(const listint_t *list);
 */
 void bubble_sort(int *array, size_t size);
 
+
+
+/**
+ * insertion_sort_list - sorts a doubly linked lists of integer in ascending order
+ * using the insertion sort.
+ * @list:pointer to the head of a doubly linked list.
+ * 
+ * Return: void.
+*/
+void insertion_sort_list(listint_t **list);
+
 /*swap function*/
-
 void swap(int *x, int *y);
+	
 
+
+
+/**
+ * Swaps two nodes in a doubly-linked list
+ * @head:  A pointer to the head of the linked list.
+ * @node1: A pointer to the first node that needs to be swapped.
+ * @node2: A pointer to the second node that needs to be swapped.
+ */
+void swap_nodes(listint_t **head, listint_t **node1, listint_t *node2);
+
+
+
+
+void selection_sort(int *array, size_t size);
 
 #endif
