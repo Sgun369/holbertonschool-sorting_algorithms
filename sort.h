@@ -47,17 +47,18 @@ void bubble_sort(int *array, size_t size);
 
 
 /**
- * insertion_sort_list - sorts a doubly linked lists of integer in ascending order
+ * insertion_sort_list - sorts a doubly linked lists of integer
+ *  in ascending order
  * using the insertion sort.
  * @list:pointer to the head of a doubly linked list.
- * 
+ *
  * Return: void.
 */
 void insertion_sort_list(listint_t **list);
 
 /*swap function*/
 void swap(int *x, int *y);
-	
+
 
 
 
