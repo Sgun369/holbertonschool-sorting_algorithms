@@ -75,10 +75,7 @@ void swap_nodes(listint_t **head, listint_t **node1, listint_t *node2);
 
 void selection_sort(int *array, size_t size);
 
-/**
- * a function that sorts an array of integers
-* in ascending order using the Quick sort algorithm
-*/
+/* a function that sorts an array of using the Quick sort algorithm*/
 void quick_sort(int *array, size_t size);
 
 #endif
